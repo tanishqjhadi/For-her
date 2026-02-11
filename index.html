@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For You ❤️</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            color: #333;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #ff4d6d;
+        }
+
+        button {
+            background-color: #ff4d6d;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #e63950;
+        }
+
+        #hiddenMessage {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Hey My Love ❤️</h1>
+        <p>
+            I know you wanted to feel loved right now…  
+            So I made this just for you.
+        </p>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <div id="hiddenMessage">
+            You are the best thing in my life.
+            You are my choice, my comfort, and my person.  
+            Even when I don’t say everything perfectly,  
+            I am always choosing you. 💕  
+            <br><br>
+            I love you.
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("hiddenMessage").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
