@@ -45,6 +45,12 @@
             margin-top: 20px;
             font-size: 18px;
         }
+
+        img {
+            margin-top: 20px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
     </style>
 </head>
 <body>
@@ -59,21 +65,19 @@
         <button onclick="showMessage()">Click Me</button>
 
         <div id="hiddenMessage">
-            You are the best thing in my life Kuchupuchu.
+            You are the best thing in my life Kuchupuchu.  
             You are my choice, my comfort, and my person.  
             Even when I don’t say everything perfectly,  
             I am always choosing you. 💕  
             <br><br>
             I love you.
             <br><br>
-            <img src="photo.jpg" width="300"
-            style="border-radius:20px;
-            margin-top:20px; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
+            <img src="photo.jpg" width="300">
         </div>
     </div>
 
     <script>
-        function showMessage {
+        function showMessage() {
             document.getElementById("hiddenMessage").style.display = "block";
         }
     </script>
